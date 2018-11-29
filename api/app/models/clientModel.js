@@ -5,7 +5,7 @@ module.exports = (app) => {
     const mongoose = require('../../config/db');
 
     const Client = new mongoose.Schema({
-        fullname: {
+        fullName: {
             required: true,
             type: String
         },
