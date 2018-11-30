@@ -1,6 +1,6 @@
 
 
-## Desafio Front-End da Accenture Recife
+## Desafio Front-End 
 
 Para esse desafio faremos uma aplicação MERN que consiste nas tecnologias MongoDB, Express, React.jsm, Node.js. Uma aplicação que possibilita o cadastro de potenciais clientes de um novo produto.
 
