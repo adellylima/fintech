@@ -1,0 +1,78 @@
+.Add .btn-form {
+    width: 100px;
+    border-radius: 0px;
+    margin-left: 20px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.Add .cancel {
+    color: #000;
+    border: none;
+    background-color: transparent !important;
+}
+
+.Add .save {
+    border: solid 1px #2095f3;
+    background-color: #2095f3;
+}
+
+.Add label {
+    margin: 0px;
+    font-size: 18px;
+}
+
+.Add .form-control{
+    border-radius: 0px;
+    border:none;
+    height: 35px;
+    padding: 0px;
+    border-bottom: solid 1px #e0e0e0;
+}
+
+.Add .form-control:focus {
+    color: #000;
+    background-color: transparent;
+    border-color: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+.Add .btn-form:focus {
+    color: #000;
+    background-color: transparent;
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.Add input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #000;
+    font-size: 16px;
+  }
+
+  .Add input::-moz-placeholder { /* Firefox 19+ */
+    font-size: 16px;
+    color: #000;
+  }
+
+  .Add input:-ms-input-placeholder { /* IE 10+ */
+    font-size: 16px;
+    color: #000;
+  }
+
+  .Add input:-moz-placeholder { /* Firefox 18- */
+    font-size: 16px;
+    color: #000;
+  }
+
+.Add .btns {
+    margin-top: 50px;
+}
+
+.Add .text-left h5 {
+    margin-bottom: 30px;
+    font-size: 20px;
+   justify-content: left;
+   text-align: left;
+   color: #2576e7;
+}

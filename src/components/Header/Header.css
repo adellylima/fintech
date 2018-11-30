@@ -1,0 +1,22 @@
+.Header .navbar img{
+    width: 55px;
+}
+.Header .navbar {
+   padding: 10px 80px; 
+}
+
+.Header .navbar h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #282294;
+    font-size: 30px;
+    margin: 0px;
+    margin-left: 10px;
+ }
+
+ @media(max-width: 500px){
+    .Header .navbar {
+        padding: 10px 20px; 
+        justify-content: left;
+     }
+    
+ }

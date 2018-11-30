@@ -33,20 +33,14 @@ module.exports = (app) => {
         });
     });
 
-    this.update = (function (req, res) {
-        Client.findById(req.params.id, function (err, data) {
-            if (!data)
-                res.status(404).send("data is not found");
-            else {
-                let data = req.body;
-                data.save().then(data => {
-                    res.json('Update complete');
-                }).catch(err => {
-                    res.status(400).send("unable to update the database");
-                });
-            }
-        });
-    });
+    this.update = async (req, res) => {
+        try {
+            let user = await Client.findByIdAndUpdate(req.params.id, req.body);
+            res.status(200).send(user);
+        } catch (err) {
+            return res.status(400).send({ error: 'Error updating user' })
+        }
+    }
 
     this.delete = (function (req, res) {
         Client.findByIdAndRemove({ _id: req.params.id }, function (err, data) {
